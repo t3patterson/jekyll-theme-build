@@ -52,5 +52,23 @@ exclude: [node_modules, gulpfile.js]
 exclude: [node_modules, gulpfile.js]
 ```
 
+#####--5-- bower install bootstrap-sass
 
-#####--4-- bower install bootstrap `_config.yml`
+#####--6-- configure _sass directory
+```
+- sass
+   -base 
+   -mixins
+   -syntax-highlighting
+```
+
+#####--7-- import everything in `main.scss`
+```
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../_sass/mixins";
+@import "../_sass/base";
+@import "../_sass/syntax-highlighting";
+```
+
+####--8--
+
