@@ -1,0 +1,16 @@
+{
+  "name": "jekyll-theme-build",
+  "version": "1.0.0",
+  "description": "getting a good theme built with teh jekyll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  }
+}
