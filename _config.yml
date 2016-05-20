@@ -16,9 +16,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: 
 
 # Build settings
 markdown: kramdown
 exclude: [node_modules, gulpfile.js, bower_components]
 
 pages: ./_static-pages
+permalink: /articles/:title.html

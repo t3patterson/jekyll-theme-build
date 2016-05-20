@@ -10,17 +10,16 @@
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/jekyll/update/2016/05/19/welcome-to-jekyll.html">
+  <link rel="canonical" href="http://yourdomain.com/articles/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 </head>
 
 
   <body>
-
     <header class="container-fluid">
   <div class="row">
     <div class="col-md-6">
-      <img src="/images/cool-con.png" height="200" width="200" alt="Header Logo"/>
+      <a href="/"> <img src="/images/cool-con.png" height="200" width="200" alt="Header Logo"/></a>
     </div>
     <div class="col-md-6">
       
@@ -35,6 +34,10 @@
         
       
         
+        <a class="btn btn-default btn-sm" href="/more-info/">Links</a>
+        
+      
+        
         <a class="btn btn-default btn-sm" href="/contact/">Contact</a>
         
       
@@ -45,12 +48,14 @@
 
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <header class="container-fluid" style="background: url({/images/page.thumb})">
+    <div class="container">
     <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta"><time datetime="2016-05-19T09:22:09-05:00" itemprop="datePublished">May 19, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-05-17T09:22:09-05:00" itemprop="datePublished">May 17, 2016</time></p>
+    </div>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="container">
     <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
@@ -69,7 +74,6 @@
   </div>
 
 </article>
-
 
   </body>
 

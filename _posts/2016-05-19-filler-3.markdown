@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Politics Ipsum"
+date:   2016-05-19 04:25:09 -0500
+categories: jekyll update
+thumb: stock-default.jpeg
+description: Not the end all be all
+---
+And as I listened to him explain why he'd enlisted, the absolute faith he had in our country and its leaders, his devotion to duty and service, I thought this young man was all that any of us might hope for in a child. Now is the time to finally meet our moral obligation to provide every child a world-class education, because it will take nothing less to compete in the global economy. But what the people heard instead - people of every creed and color, from every walk of life - is that in America, our destiny is inextricably linked.
+
+The truth is, on issue after issue that would make a difference in your lives - on health care and education and the economy - Senator McCain has been anything but independent. The first nation to recognize my country was Morocco.
+
+But Moses says: What I am commanding you is not too difficult for you or beyond your reach. And in exchange, I'll ask for higher standards and more accountability.
