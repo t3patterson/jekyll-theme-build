@@ -49,7 +49,7 @@ exclude: [node_modules, gulpfile.js]
 
 #####--4-- configure `_config.yml`
 ```
-exclude: [node_modules, gulpfile.js]
+exclude: [node_modules, gulpfile.js, bower_components]
 ```
 
 #####--5-- bower install bootstrap-sass
@@ -70,5 +70,15 @@ exclude: [node_modules, gulpfile.js]
 @import "../_sass/syntax-highlighting";
 ```
 
-####--8--
+#####--8-- Install & configure paginate
+`$ gem install jekyll-paginate`
+
+then in `_config.yml`:
+```yml
+paginate: 5
+paginate_path: "/posts/page:num"
+...
+gems: [jekyll-paginate]
+```
+
 
