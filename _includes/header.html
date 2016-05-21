@@ -1,15 +1,48 @@
 <header class="container-fluid">
   <div class="row">
     <div class="col-md-6">
-      <a href="/"> <img src="/images/cool-con.png" height="200" width="200" alt="Header Logo"/></a>
+      
     </div>
     <div class="col-md-6">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a class="btn btn-default btn-sm" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        {% endif %}
-      {% endfor %}
+      
     </div>
   </div>
 
 </header>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">
+        <img 
+          src="/images/cool-con.svg" 
+          alt="Header Logo" height="100%" 
+          width="100%"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+      <ul class="nav navbar-nav">
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+              {%if my_page.url == page.url%}
+              <li class="active">
+                <a href="{{ my_page.url | prepend: site.baseurl }}">             
+                  {{ my_page.title }}
+                </a>
+              </li>
+              {% else %}
+              <li class="">
+                <a href="{{ my_page.url | prepend: site.baseurl }}">
+                  {{ my_page.title }}
+                </a>
+              </li>
+              {% endif %}
+
+            {% endif %}
+          {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</nav>
+

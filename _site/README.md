@@ -1,4 +1,6 @@
 #How to
+personal note: get started with `gulp dev`
+
 
 ###Setup
 #####--1-- Set up jekyll folders 
@@ -81,4 +83,10 @@ paginate_path: "/posts/page:num"
 gems: [jekyll-paginate]
 ```
 
+###Todo
+fix pagination
+fix nav-bar
 
+Create a shell script to setup
+- install gulp
+- gems + paginate
