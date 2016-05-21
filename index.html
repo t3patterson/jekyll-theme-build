@@ -47,18 +47,28 @@ layout: default
     </div>
   </section>
 
-  <div class="container pagination">
-    <div class="row">
-      <div class="col-xs-6 text-center">
-        {% if paginator.previous_page %}
-        <a href="{{paginator.previous_page_path}}">Previous</a>
-        {% endif %}
-      </div>
-      <div class="col-xs-6 text-center">
-        {% if paginator.next_page %}
-        <a href="{{paginator.next_page_path}}">Next</a>
-        {% endif %}
-      </div>
+  <div class="container">
 
-    </div>
-  </div>
+  <nav>
+    <ul class="pagination">
+      <li>
+        {% if paginator.previous_page %}
+          <a href="{{paginator.previous_page_path}}" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        {% endif %}
+      </li>
+      <li class="active"><a >{{ paginator.page }}</a></li>
+      <li>
+       {% if paginator.next_page %}
+        <a href="{{paginator.next_page_path}}" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+       {% endif %}
+
+      </li>
+    </ul>
+  </nav>
+
+
+   
