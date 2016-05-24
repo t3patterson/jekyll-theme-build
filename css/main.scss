@@ -10,3 +10,36 @@
   
 // Import partials from `sass_dir` (defaults to `_sass`)
 
+$primary-yello: #F4B350;
+
+
+.jumbotron{
+  background: $primary-yello;
+}
+
+.featured-content {
+  h3 {
+    a {
+     color:  $primary-yello;
+     
+     &:hover{
+        color: #D35400;
+      }
+    }
+    
+  }
+
+  p {
+    color: #D35400;
+  }
+}
+
+
+
+.pagination {
+  > .active {
+    > a {
+      background: $primary-yello;
+    }
+  }
+}

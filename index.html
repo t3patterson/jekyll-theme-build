@@ -4,8 +4,8 @@ layout: default
   <div class="jumbotron">
     <div class="container">
       <h1>Bootstrap on Jekyll</h1>
-      <p>Easy static site generator with good style out of the box.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      <p>Easy static site generator with bootstarp out of the box.</p>
+      <p><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more</a></p>
     </div>
   </div>
   
@@ -30,7 +30,7 @@ layout: default
   </section>
 
 
-  <section class="container featured-content">
+  <section class="container">
     <div class="row">
        {% assign normal_posts = paginator.posts|where:"featured","" %}
        {% for post in normal_posts limit:3%}
