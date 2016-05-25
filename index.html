@@ -16,7 +16,7 @@ layout: default
        {% for post in featured_posts reversed limit:3 %}
           <div class="col-sm-2 col-md-4">
             <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">
+              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
               {{post.title}}
               </a>
             </h3>
