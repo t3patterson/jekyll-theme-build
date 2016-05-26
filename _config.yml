@@ -29,9 +29,9 @@ gems: [jekyll-paginate]
 
 
 # Development-Settings
-# baseurl: "" # the subpath of your site, e.g. /my-furries
+baseurl: "" # the subpath of your site, e.g. /my-furries
 # url: "http://localhost:3000" # the base hostname & protocol for your site
 
 # Production-Settings
-baseurl: "" # the subpath of your site, e.g. /my-furries
-url: "http://t3patterson.github.io/jekyll-theme-build" # the base hostname & protocol for your site
+baseurl: "/jekyll-theme-build" # the subpath of your site, e.g. /my-furries
+# url: "http://t3patterson.github.io" # the base hostname & protocol for your site
