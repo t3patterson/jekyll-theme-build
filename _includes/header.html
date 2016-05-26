@@ -13,7 +13,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="{{'' | prepend: site.baseurl | prepend: site.url}}">
         <img 
           src="{{ '/images/cool-con.svg' | prepend: site.baseurl | prepend: site.url }}" 
           alt="Header Logo" height="100%" 
@@ -24,15 +24,15 @@
       <ul class="nav navbar-nav">
           {% for my_page in site.pages %}
             {% if my_page.title %}
-              {%if my_page.url == page.url%}
+              {% if my_page.url == page.url %}
               <li class="active">
-                <a href="{{ my_page.url| prepend: site.baseurl | prepend: site.url }}">             
+                <a href="{{ my_page.url | prepend: site.baseurl | prepend: site.url }}">             
                   {{ my_page.title }}
                 </a>
               </li>
               {% else %}
               <li class="">
-                <a href="{{ my_page.url| prepend: site.baseurl | prepend: site.url  }}">
+                <a href="{{ my_page.url | prepend: site.baseurl | prepend: site.url  }}">
                   {{ my_page.title }}
                 </a>
               </li>
