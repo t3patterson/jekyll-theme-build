@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "I will always be there"
+date:   2016-05-25 19:02:09 -0500
+categories: jekyll update
+thumb: stock-default.jpeg
+description: What ultimately shows up?
+---
+flex-start: cross-start margin edge of the items is placed on the cross-start line
+
+flex-end: cross-end margin edge of the items is placed on the cross-end line
+center: items are centered in the cross-axis
+
+baseline: items are aligned such as their baselines align
+
+stretch (default): stretch to fill the container (still respect min-width/max-width)

@@ -5,7 +5,6 @@ date:   2016-05-18 04:23:09 -0500
 categories: jekyll update
 thumb: stock-default.jpeg
 description: Not the end all be all
-
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac semper dolor, vitae viverra eros. Maecenas varius ante sed mi auctor, sed aliquet odio consectetur. Nunc non elementum dolor. Pellentesque eget ultricies sapien, rhoncus efficitur lacus. Praesent dignissim mollis egestas. Donec sed metus eu ex vehicula convallis et in odio. Morbi tincidunt purus id est varius lacinia.
 

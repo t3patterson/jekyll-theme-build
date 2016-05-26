@@ -19,7 +19,7 @@ github_username:  jekyll
 pages: ./_static-pages
 permalink: /articles/:title.html
 
-paginate: 5
+paginate: 4
 paginate_path: "/posts/page:num"
 
 # Build settings
@@ -30,8 +30,8 @@ gems: [jekyll-paginate]
 
 # Development-Settings
 # baseurl: "" # the subpath of your site, e.g. /my-furries
-# url: "http://localhost:3000/" # the base hostname & protocol for your site
+# url: "http://localhost:3000" # the base hostname & protocol for your site
 
-# Production
-baseurl: "jekyll-theme-build" # the subpath of your site, e.g. /my-furries
-url: "http://t3patterson.github.io/" # the base hostname & protocol for your site
+# Production-Settings
+baseurl: "/jekyll-theme-build" # the subpath of your site, e.g. /my-furries
+url: "http://t3patterson.github.io" # the base hostname & protocol for your site

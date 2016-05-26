@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "More Information"
+date:   2016-05-25 17:02:09 -0500
+categories: jekyll update
+thumb: stock-default.jpeg
+description: What ultimately shows up?
+---
+This relies on the fact a margin set to `auto` in a flex container absorb extra space. So setting a vertical margin of auto will make the item perfectly centered in both axis.
+
+Now let's use some more properties. Consider a list of 6 items, all with a fixed dimensions in a matter of aesthetics but they could be auto-sized. We want them to be evenly and nicely distributed on the horizontal axis so that when we resize the browser, everything is fine (without media queries!).

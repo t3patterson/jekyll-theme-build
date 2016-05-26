@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Tally the scores"
+date:   2016-05-25 21:02:09 -0500
+categories: jekyll update
+thumb: stock-default.jpeg
+description: What ultimately shows up?
+---
+flex-start: lines packed to the start of the container
+
+flex-end: lines packed to the end of the container
+center: lines packed to the center of the container
+
+space-between: lines evenly distributed; the first line is at the start of the container while the last one is at the end
+space-around: lines evenly distributed with equal space around each line
+stretch (default): lines stretch to take up the remaining space
